@@ -1,0 +1,164 @@
+
+body{
+    background-color: rgb(70, 69, 69);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.cabecera{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display:flex;
+
+}
+
+.imagen{
+    margin-left: 1rem;
+    width: 15rem;
+    
+}
+
+
+.contenido{
+   margin: auto;
+   width: 16rem ; 
+}
+
+.cabecera h4{
+text-align: left;
+}
+.cabecera h5{
+    margin-left: 5rem;
+
+}
+
+.titulo{
+    text-align: center;
+}
+
+button{
+margin-left: 5rem;
+background-color: rgba(12, 241, 153, 0.938);
+border: none;
+width: 6rem;
+height: 2.5rem;
+border-radius: 0.1rem;
+
+}
+
+.inferior{
+    color:rgb(56, 5, 104);
+    text-align: center;
+    background-color: white;
+    
+}
+
+.superior{
+    background-color: rgb(63, 8, 114);
+    color: aliceblue;
+}
+
+    
+.inferior h4{
+    
+    margin: auto;
+    width: 1rem;
+    border-radius: 100%;
+    border: rgb(10, 10, 10) solid;
+}
+
+.inferior p{
+    color: black;
+    font-size: 12px;
+}
+
+.inferior h3{
+    font-size: 16px;
+
+}
+
+.parrafo1{
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.parrafo2{
+    padding-bottom:1.2rem ;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.parrafo3{
+    padding-bottom:1.2rem ;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+}
+
+
+
+.work{
+  font-weight: bold ; 
+  
+    
+}
+
+.apply{
+    text-decoration: underline green solid; 
+}
+
+.tailored{
+    text-decoration: underline green solid; 
+
+}
+
+.titulo{
+    font-size: 13px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .contenido{
+        margin: auto;
+        margin-top: 10rem;
+        width: 40rem ; 
+     }
+
+    button{
+        margin-left: 17rem ;
+    }
+    
+    .imagen{
+        margin-left: 12rem;
+        padding-bottom: 1rem;
+    }
+
+    .inferior{
+        display: flex;
+    }
+
+    .parrafo2{
+        padding-top: 1rem;
+
+    }
+
+    .parrafo3{
+        padding-top: 1rem;
+    }
+
+     .cabecera h4{
+        margin-left: 3rem;
+     }
+
+     .cabecera h5{
+        
+        margin-left: 24rem;
+     }
+     .titulo{
+        margin: auto;
+        width: 15rem;
+     }
+
+}
